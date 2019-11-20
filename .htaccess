@@ -1,7 +1,7 @@
 //Redirect 302 / https://www.linkedin.com/in/gabrielkarapetian/
 
 //Rewrite to www
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^linkedin.com/in/gabrielkarapetian[nc]
-RewriteRule ^(.*)$ http://www.linkedin.com/in/gabrielkarapetian/$1 [r=301,nc]
+//Options +FollowSymLinks
+//RewriteEngine on
+//RewriteCond %{HTTP_HOST} ^linkedin.com/in/gabrielkarapetian[nc]
+//RewriteRule ^(.*)$ http://www.linkedin.com/in/gabrielkarapetian/$1 [r=301,nc]
