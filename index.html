@@ -4,11 +4,16 @@
 <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
 
-    <link rel="stylesheet" href="css/style.css">
+
+
 	<link rel="icon" href="images/favicon.png">
-    <title>Gabriel Karapetian &mdash; Welkom</title>
-
+    <title>Gabriel Karapetian &mdash; Personal webpage</title>
+    
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147643497-1"></script>
 <script>
@@ -22,32 +27,37 @@
 </head>
 <body>
     
-            
-        <div class="container">
-                <div class="centered">  <img src="images/pic.jpeg" alt="Gabriel karapetian" ;> </div>
-                <div class="back">  <img class="im" src="images/cover17.jpg" alt="Gabriel karapetian"> </div>
-                    <div class="text-block">
-                            <h1><span>Gabriel Karapetian</span></h1>
-                            <h3><span>Cyber Security Student</span></h3>
-                            <ul class="social">
-           
-                                    <button class="button" onclick="window.location.href = 'https://www.facebook.com/gabriel.karapetian';">Facebook</button>
-                                    <button class="button" onclick="window.location.href = 'https://www.linkedin.com/in/gabrielkarapetian';">LinkedIn</button>
-                                    <button class="button" onclick="window.location.href = 'https://www.instagram.com/gabriel_karapetian';">Instagram</button>
-                         
-                             </ul>
-                    </div>
+<div >
+    <div uk-height-viewport="expand: true" class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="images/cover17.jpg" uk-img>
+        <div class="uk-card  uk-card-body">
+        <div class="uk-text-center" uk-grid>
+            <div class="uk-width-1-2@m">
+                <div class=" uk-card-body">
+                    <img class="uk-box-shadow-xlarge uk-border-circle" src="images/pic.jpeg" width="200" height="200" alt="Border circle">
+                </div>
             </div>
+            <div class="uk-width-1-2@m">
+            <div class="uk-width-expand@m">
+                <div class=" uk-card-body">
+                    <h1><span>Gabriel Karapetian</span></h1>
+                    <h3><span>Cyber Security Student</span></h3>
+                </div>
+            </div>
+            <div class="uk-width-expand@m">
+                <div class=" uk-card-body">
+                    
+                    <a href="https://www.facebook.com/gabriel.karapetian" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                    <a href="https://www.instagram.com/gabriel_karapetian" class="uk-icon-button  uk-margin-small-right" uk-icon="instagram"></a>
+                    <a href="https://www.linkedin.com/in/gabrielkarapetian" class="uk-icon-button  uk-margin-small-right" uk-icon="linkedin"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+      </div>
+    </div>
 
-
-   
- 
-
- 
-    
-    
-    
-   
    
 </body>
 </html>
