@@ -1,4 +1,4 @@
-//Redirect 302 / https://www.linkedin.com/in/gabrielkarapetian/
+Redirect 302 / https://www.linkedin.com/in/gabrielkarapetian/
 
 //Rewrite to www
 //Options +FollowSymLinks
